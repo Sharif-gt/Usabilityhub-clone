@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+/* Resets */
 *{
     padding: 0;
     margin: 0;
@@ -41,4 +42,23 @@ p{
 a{
     text-decoration: none;
     display: inline-block;
+}
+/* End Resets */
+
+.small-text{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline);
+}
+
+.topbanner{
+    background-color: #4fb3d4;
 }
