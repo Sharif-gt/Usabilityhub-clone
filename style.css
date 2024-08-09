@@ -128,3 +128,28 @@ ul{
     color: var(--accent-color);
     transition: 0.2s ease-out;
 }
+
+.header{
+    padding: 50px var(--padding-inline);
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-right img{
+    width: 600px;
+}
+
+.header-left h1{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.header-left p{
+    padding-right: 15px;
+}
+.btn{
+    margin-top: 20px;
+}
