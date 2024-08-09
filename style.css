@@ -170,3 +170,34 @@ ul{
 .logo{
     height: 46px;
 }
+
+.feature-section{
+    padding: 80px var(--padding-inline) 0;
+}
+
+.feature-heading{
+    text-align: center;
+    margin-block: 50px 30px;
+    font-weight: 600;
+}
+
+.feature-heading h2{
+    margin-bottom: 20px;
+}
+
+.card{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.card img{
+    width: 40px;
+}
+
+.feature-card{
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
