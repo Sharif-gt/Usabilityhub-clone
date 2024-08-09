@@ -153,3 +153,20 @@ ul{
 .btn{
     margin-top: 20px;
 }
+
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 46px;
+}
