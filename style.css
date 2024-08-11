@@ -251,7 +251,7 @@ ul{
     display: flex;
     align-items: flex-end;
     padding-inline: 10px;
-    transition: 0.4s ease-out all;
+    transition: 0.5s ease-out all;
 }
 
 .example-card:hover{
@@ -265,4 +265,20 @@ ul{
 .example-section{
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.cta{
+    background-color: #183b54;
+    padding: 70px var(--padding-inline) 60px;
+    margin-top: 50px;
+}
+
+.cta-section{
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.cta-section p{
+    color: #b9cde4;
 }
