@@ -262,6 +262,25 @@ ul{
                 -14px -14px 28px #e8dada;
 }
 
+.example-card h3{
+    padding-bottom: 10px;
+}
+
+.change-img-2{
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 36.jpeg);
+    background-size: contain;
+}
+
+.change-img-3{
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 39.jpeg);
+    background-size: contain;
+}
+
+.change-img-4{
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 34.jpeg);
+    background-size: contain;
+}
+
 .example-section{
     justify-content: space-between;
     margin-top: 50px;
@@ -281,4 +300,33 @@ ul{
 
 .cta-section p{
     color: #b9cde4;
+}
+
+.footer{
+    background-color: #ebf2fa;
+}
+
+.footer-section{
+    justify-content: space-evenly;
+    padding-block: 100px 70px;
+}
+
+.company-logo img{
+    width: 150px;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.sub-footer{
+    background-color: #b9cde4;
+}
+
+.sub-list{
+    justify-content: center;
+    gap: 30px;
+    padding: var(--padding-inline);
 }
