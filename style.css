@@ -94,6 +94,7 @@ ul{
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline);
+    overflow: hidden;
 }
 
 .topbanner{
@@ -136,7 +137,7 @@ ul{
 }
 
 .header-left{
-    max-width: 40vw;
+    flex-basis: 40vw;
 }
 
 .header-right img{
@@ -215,7 +216,7 @@ ul{
 }
 
 .f-tex{
-    max-width: 60vw;
+    flex-basis: 60vw;
     padding: var(--padding-inline);
     font-weight: 500;
     flex-direction: column;
@@ -329,4 +330,33 @@ ul{
     justify-content: center;
     gap: 30px;
     padding: var(--padding-inline);
+}
+
+/* Media queries */
+
+@media screen and (max-width: 992px) {
+
+    .nav-link ul{
+        justify-content: end;
+        gap: 25px;
+    }
+
+    .header-left{
+        flex-basis: 40vw;
+        padding-left: 15px;
+    }
+    
+    .header-right img{
+        width: 500px;
+    }
+
+    .logos{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .f-img img{
+        width: 450px;
+    }
+
 }
