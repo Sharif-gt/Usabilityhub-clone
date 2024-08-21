@@ -23,7 +23,7 @@
             <a href="#" class="logo">
                 <img src="./assets/asset 1.png" alt="company logo">
             </a>
-            <div class="nav-link">
+            <div class="nav-link" id="nav-links">
                <ul class="flex">
                     <li><a href="#" class="hover-link">Products</a></li>
                     <li><a href="#" class="hover-link">Customer</a></li>
@@ -33,6 +33,9 @@
                     <li><a href="#" class="hover-link primary-btn">Sign up</a></li>
                </ul>
             </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
     </nav>
 
@@ -254,6 +257,19 @@
     </footer>
 
    <!-- end footer section -->
+
+   <script src="https://kit.fontawesome.com/0d6c150981.js" crossorigin="anonymous"></script>
+
+   <script>
+
+    const toggleButton = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    })
+
+   </script>
 
 </body>
 </html>
